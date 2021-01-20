@@ -1,0 +1,597 @@
+/* // Extra small devices(portrait phone, less than 576px) */
+@media(max-width: 575.98px){ 
+    h4 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    /* manu part */
+    #manu_item ul{
+        background: #fff;
+    }
+    /* banner part */
+    #banner_part {
+        position: relative;
+        width: 100%;
+        height: 75vh;
+    }
+
+    .banner_heading {
+        position: relative;
+        top: 30%;
+        left: 0;
+    }
+
+    .banner_heading h1 {
+        font-size: 25px;
+        font-weight: 700;
+        color: #000000;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+
+    .banner_heading .android_button {
+        float: left;
+        margin-right: 15px;
+        margin-top: 20px;
+    }
+
+    .banner_heading .android_button a {
+        display: flex;
+        text-decoration: none;
+        border: 2px solid #4ba0f9;
+        border-radius: 3px;
+        padding: 5px 15px;
+        font-size: 16px;
+        font-weight: 500;
+        background: #4ba0f9;
+        transition: all .4s ease;
+    }
+
+    .banner_heading .android_button a i {
+        color: #ffffff;
+        font-size: 25px;
+        margin-top: 9px;
+        margin-right: 10px;
+        transition: all .4s ease;
+    }
+
+    .banner_heading .apple_button {
+        float: left;
+        margin-right: 15px;
+        margin-top: 20px;
+    }
+
+    .banner_heading .apple_button a {
+        display: flex;
+        text-decoration: none;
+        border: 2px solid #4ba0f9;
+        border-radius: 3px;
+        padding: 5px 20px;
+        font-size: 16px;
+        font-weight: 500;
+        transition: all .4s ease;
+    }
+
+    .banner_heading .apple_button a i {
+        color: #4ba0f9;
+        font-size: 25px;
+        margin-top: 9px;
+        margin-right: 10px;
+        transition: all .4s ease;
+    }
+
+    /* services part */
+    #product_part {
+        padding: 45px 0;
+    }
+
+    .all_heading h2 {
+        color: #000000;
+        font-size: 25px;
+        font-weight: 700px;
+    }
+
+    .text_product_services {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    /* about part */
+    #about_part {
+        padding: 30px 0;
+    }
+
+    .all_heading h2 {
+        color: #000000;
+        font-size: 22px;
+        font-weight: 700px;
+        padding: 10px 0;
+    }
+
+    .about_video img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .counter_1 {
+        text-align: center;
+        margin: 10px 0px;
+        padding: 13px;
+        border-radius: 3px;
+        transition: all .4s ease;
+    }
+
+    /* Screenshot part */
+
+    #screenshot_part {
+        padding: 0;
+    }
+
+    /* features part */
+    #features_part {
+        padding: 40px 0;
+    }
+
+    .features_text {
+        margin: 30px 0;
+        text-align: center;
+    }
+
+    .features_image img {
+        width: 100%;
+        height: 550px;
+        margin: 40px 0;
+    }
+
+    .features_text_1 {
+        margin: 30px 0;
+        text-align: center;
+    }
+
+    /* testimonials part */
+    #testimonials_part {
+        padding: 40px 0;
+    }
+
+    /* price part */
+    #price_part {
+        padding: 40px 0;
+    }
+
+    /* Download Available part */
+    #download_available {
+        padding: 50px 0;
+        background: #4ba0f9;
+    }
+
+
+    /* out team part */
+
+    #out_team_part {
+        padding: 40px 0;
+    }
+
+    .team_item_part .image_team img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-left: 0;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .team_item_part ul {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%) !important;
+    }
+
+    .team_item_part ul li a {
+        color: #777777;
+        font-size: 18px;
+        margin: 0 6px;
+        transition: all .4s ease;
+    }
+
+    /* our blog part */
+
+    #our_blog {
+        padding: 40px 0;
+    }  
+    
+    .blog_details {
+        padding: 20px 0;
+        margin: 5px 0;
+        transition: all .4s ease;
+    }
+
+    .order_1{
+        margin: 15px 0;
+    }
+
+    .order_3 {
+        margin: 15px 0;
+    }
+
+    .order_4{
+        margin: 15px 0;
+    }
+
+    .sub_footer_text{
+        margin: 15px 0;
+    }
+
+    .sub_footer_social ul li {
+        float: left;
+        margin: 0 10px;
+    }
+
+    /* ---------------------------------- about page --------------------------------- */
+
+    /* about page header */
+
+    #about_page_header {
+        padding: 65px 15px;
+    }
+
+    #about_page_header h2{
+        font-size: 35px;
+    }
+
+    /* ---------------------------------contact page------------------------------------ */
+
+    /* contact information */
+    
+    .contact_information {
+        padding: 20px 0px;
+        background: #f6f6f6;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+ }
+
+/* small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* manu part */
+    #manu_item ul{
+        background: #fff;
+    }
+
+    /* banner part */
+    #banner_part {
+        position: relative;
+        width: 100%;
+        height: 80vh;
+    }
+
+    .banner_heading h1 {
+        font-size: 33px;
+        font-weight: 700;
+        color: #000000;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+
+    /* services part */
+    #product_part {
+        padding: 60px 0;
+    }
+
+    .all_heading h2 {
+        color: #000000;
+        font-size: 30px;
+        font-weight: 700px;
+    }
+
+    .text_product_services {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    /* about part */
+    #about_part {
+        padding: 60px 0;
+    }
+
+    .about_video {
+        position: relative;
+        margin-top: 0;
+    }   
+
+    .about_video img {
+        width: 100%;
+        height: 300px;
+    }
+
+    /* screenshot part */
+
+    #screenshot_part {
+        padding: 0px 0;
+    }
+
+    /* features part */
+
+    #features_part {
+        padding: 60px 0;
+    }
+
+    .features_text {
+        margin: 30px 0;
+        text-align: center;
+    }
+
+    .features_image img {
+        width: 100%;
+        height: 550px;
+        margin: 40px 0;
+    }
+
+    .features_text_1 {
+        margin: 30px 0;
+        text-align: center;
+    }
+
+    /* testimonials part */
+
+    #testimonials_part {
+        padding: 60px 0;
+    }
+
+    /* price part */
+    #price_part {
+        padding: 60px 0;
+    }
+
+    .price_text {
+        margin: 20px 0;
+        transform: translateX()
+    }
+
+    /* download available */
+
+    #download_available {
+        padding: 60px 0;
+        background: #4ba0f9;
+    }
+
+    /* out team part */
+    #out_team_part {
+        padding: 60px 0;
+    }
+
+    .team_item_part ul li a {
+        margin: 0 12px;
+    }
+
+    /* our blog */
+    #our_blog {
+        padding: 60px 0;
+    }
+
+    /* sub footer part */
+
+    .sub_footer_social ul li {
+        float: left;
+        margin: 0 3px;
+    }
+
+    /* ---------------------------------- about page --------------------------------- */
+
+    /* about page header */
+
+    #about_page_header {
+        padding: 65px 15px;
+    }
+
+    #about_page_header h2{
+        font-size: 35px;
+    }
+
+    /* ---------------------------------contact page------------------------------------ */
+
+    /* contact information */
+
+    .contact_information {
+        padding: 20px 0px;
+        background: #f6f6f6;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .all_heading h2 {
+        color: #000000;
+        font-size: 35px;
+        font-weight: 700px;
+    }
+
+    /* manu part */
+    #navbar_Content ul li {
+        margin: 0 10px;
+    }
+
+    #navbar_Content ul li a {
+        color: #4ba0f9;
+        font-size: 14px;
+        font-weight: 500;
+        transition: all .4s ease;
+    }
+
+    /* banner part */
+
+    .banner_heading {
+        position: relative;
+        top: 25%;
+        left: 0;
+    }   
+
+    .banner_heading h1 {
+        font-size: 35px;
+        font-weight: 700;
+        color: #000000;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+
+    .banner_heading .android_button a {
+        display: flex;
+        text-decoration: none;
+        border: 2px solid #4ba0f9;
+        border-radius: 3px;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 500;
+        background: #4ba0f9;
+        transition: all .4s ease;
+    }
+
+    .banner_image {
+        position: relative;
+        top: 30%;
+        left: 0;
+    }
+
+    /* about part */
+
+    .about_video {
+        position: relative;
+        margin-top: 0;
+    }
+
+    .counter_1 {
+        text-align: center;
+        margin: 5px 0px;
+        padding: 20px;
+        border-radius: 3px;
+        transition: all .4s ease;
+    }
+
+    /* screenshot part */
+    .screenshot_item_text h3 {
+        padding: 5px 0px;
+    }
+
+    .screenshot_item_text p {
+        padding: 15px 0px;
+    }
+
+    /* features part */
+
+    .features_text_1 {
+        margin: 10px 0;
+        padding: 32px 0;
+    }
+
+    /* download available */
+
+    /* out team part */
+    .team_item_part .image_team img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-left: 0;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .team_item_part ul {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%) !important;
+    }
+
+    .team_item_part ul li a {
+        color: #777777;
+        font-size: 18px;
+        margin: 0 6px;
+        transition: all .4s ease;
+    }
+
+    /* sub footer part */
+    .sub_footer_social ul li {
+        float: left;
+        margin: 0 8px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .all_heading h2 {
+        color: #000000;
+        font-size: 40px;
+        font-weight: 700px;
+    }
+
+    /* banner part */
+    .banner_heading {
+        position: relative;
+        top: 40%;
+        left: 0;
+    }
+
+    .banner_heading h1 {
+        font-size: 40px;
+        font-weight: 700;
+        color: #000000;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+
+    .banner_heading {
+        position: relative;
+        top: 40%;
+        left: 0;
+    }
+
+    /* price part */
+    .price_text a {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 11px;
+        border: 2px solid #4ba0f9;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #4ba0f9;
+        transition: all .4s ease;
+    }
+
+    /* team part */
+    .team_item_part .image_team img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-left: 0;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .team_item_part ul {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%) !important;
+    }
+
+    .team_item_part ul li a {
+        color: #777777;
+        font-size: 18px;
+        margin: 0 6px;
+        transition: all .4s ease;
+    }
+
+    /* footer part */
+    #footer_part .footer_newalatter .form-control { 
+        width: 80%;
+    }
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
